@@ -89,12 +89,14 @@ body {font-family: 'Roboto'; color: var(--primary-text-color); background-color:
 /* Footer */
 .footer {background: #2F303A;}
 .footer-logo-studio {color: var(--primaty-bg-color);}
-.map {font-weight: 400;
+.map {font-style: normal;
+    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: var(--primaty-bg-color)}
-.footer-contacts {font-weight: 400;
+.footer-contacts {font-style: normal;
+    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
