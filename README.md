@@ -1,1 +1,2 @@
-# goit-homework2-correct
+# goit-homework
+Homework at courses
