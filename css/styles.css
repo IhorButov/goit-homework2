@@ -101,7 +101,8 @@ body {font-family: 'Roboto'; color: var(--primary-text-color); background-color:
     line-height: 24px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);}
-
+.map:focus {color: var(--accent-color);}
+.footer-contacts:focus {color: var(--accent-color);}
 
 /* Filter Buttons */
 .filter-button.main {font-weight: 500;
@@ -115,7 +116,7 @@ body {font-family: 'Roboto'; color: var(--primary-text-color); background-color:
     color: var(--primaty-bg-color);
     background-color: var(--accent-color);}
 
-/* Porfolio */
+/* Portfolio */
 .portfolio-title {font-weight: 700;
     font-size: 18px;
     line-height: 36px;
