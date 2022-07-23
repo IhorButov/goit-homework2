@@ -3,47 +3,53 @@
     --title-text-color: #212121;
     --accent-color: #2196F3;
     --primaty-bg-color: #FFFFFF}
-body {font-family: 'Roboto'; color: var(--primary-text-color); background-color: var(--primaty-bg-color);}
+body {font-family: 'Roboto', sans-serif; color: var(--primary-text-color); background-color: var(--primaty-bg-color);}
 * {list-style: none;}
+.header-logo, .link, .header-logo {text-decoration: none;}
 
-/* Логотип */
+/* --- Кнопки ---  */
+.hero-button, .filter-button {font-family: inherit;}
+
+/* --- Логотип ---  */
 .header-logo {font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: #000000}
 .logo-web {color: #2196F3;}
 
-/* Хэдер список+контакты */
-.header-nav .list {font-weight: 500;
+/* --- Хэдер список+контакты ---  */
+.nav-link {font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: #000000;}
-.link {color: #000000;}
-.header-nav .link.current {color: var(--accent-color)}
-.link:hover, .link:focus {color: var(--accent-color);}
+.nav-link {color: #000000;}
+.nav-link.link.current {color: var(--accent-color)}
+.nav-link:hover, .nav-link:focus {color: var(--accent-color);}
 .header-contancts-links {font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;}
-.header-contancts-links:hover, .header-contancts-links:focus {color: var(--accent-color);}
+.header-contancts-links:hover, .header-contancts-links:focus, 
+.map:hover, .footer-contacts:hover, .map:focus, .footer-contacts:focus {color: var(--accent-color);}
 
-/* Hero */
+/* --- Hero ---  */
 .section-hero {background: #2F303A;}
 .hero-title {font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.5;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;}
-/* Button */
+
+/* --- Button ---  */
 .hero-button {font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.87;
     display: flex;
     align-items: center;
     text-align: center;
@@ -51,63 +57,63 @@ body {font-family: 'Roboto'; color: var(--primary-text-color); background-color:
     color: var(--primaty-bg-color);
     background-color: var(--accent-color);}
 
-/* Тайтл секций */
+/* --- Тайтл секций ---  */
 .section-title {font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-text-color);}
 
-    /* Особенности */
+    /* --- Особенности ---  */
 .features-title {font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--title-text-color);}
 .features-text {font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--primary-text-color)}
 
-    /* Наша команда */
+    /* --- Наша команда ---  */
 .team-list .team-title {font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-text-color);}
 .team-job {font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-text-color)}
 
-/* Footer */
+/* --- Footer ---  */
 .footer {background: #2F303A;}
 .footer-logo-studio {color: var(--primaty-bg-color);}
 .map {font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--primaty-bg-color)}
 .footer-contacts {font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);}
 .map:focus {color: var(--accent-color);}
 .footer-contacts:focus {color: var(--accent-color);}
 
-/* Filter Buttons */
+/* --- Filter Buttons ---  */
 .filter-button.main {font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
@@ -116,14 +122,13 @@ body {font-family: 'Roboto'; color: var(--primary-text-color); background-color:
     color: var(--primaty-bg-color);
     background-color: var(--accent-color);}
 
-/* Portfolio */
+/* --- Portfolio ---  */
 .portfolio-title {font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
     color: var(--title-text-color)}
-.portfolio-text {font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
+.portfolio-text {font-size: 16px;
+    line-height: 1.87;
     letter-spacing: 0.03em;
     color: var(--primary-text-color)}
