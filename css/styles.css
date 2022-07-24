@@ -21,8 +21,8 @@ body {font-family: 'Roboto', sans-serif; color: var(--primary-text-color); backg
     clip-path: inset(50%);
     margin: -1px;}
 
-/* --- Кнопки ---  */
-.hero-button, .filter-button {font-family: inherit;}
+/* --- Кнопки (часть) ---  */
+.hero-button, .filter-button {font-family: inherit; cursor: pointer;}
 
 /* --- Логотип ---  */
 .header-logo {font-family: 'Raleway';
@@ -124,7 +124,7 @@ body {font-family: 'Roboto', sans-serif; color: var(--primary-text-color); backg
 
 
 /* --- Filter Buttons ---  */
-.filter-button.main {font-weight: 500;
+.filter-button {font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
