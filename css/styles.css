@@ -6,7 +6,7 @@
     --filterbutton-main-color: #212121;
     --filterbutton-bg-color: #F5F4FA;}
 body {font-family: 'Roboto', sans-serif; color: var(--primary-text-color); background-color: var(--primaty-bg-color);}
-* {list-style: none;}
+.list {list-style: none;}
 .link, .header-logo, .header-logo {text-decoration: none;}
 
 .visually-hidden {
