@@ -1,0 +1,19 @@
+ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .menu  {
+    display: inline-block;
+    vertical-align: top;
+    opacity: 1;
+  }
+  
+  .sub-menu  {
+    opacity: 0;
+    margin-left: 100px;
+  }
+  
+  .menu-item:hover {
+    opacity: 1;
+  } 
